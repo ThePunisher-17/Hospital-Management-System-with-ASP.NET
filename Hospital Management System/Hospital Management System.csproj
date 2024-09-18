@@ -101,10 +101,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AbousUs.aspx" />
     <Content Include="AddDoctor.aspx" />
     <Content Include="AdminDashboard.aspx" />
     <Content Include="Admin_login.aspx" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="DoctorDashboard.aspx" />
+    <Content Include="EmergencyContact.aspx" />
     <Content Include="Forgotpassword.aspx" />
     <Content Include="Global.asax" />
     <Content Include="main_background.jpg" />
@@ -116,6 +119,13 @@
     <Content Include="Doctor_login.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbousUs.aspx.cs">
+      <DependentUpon>AbousUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AbousUs.aspx.designer.cs">
+      <DependentUpon>AbousUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddDoctor.aspx.cs">
       <DependentUpon>AddDoctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,12 +149,26 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DoctorDashboard.aspx.cs">
       <DependentUpon>DoctorDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DoctorDashboard.aspx.designer.cs">
       <DependentUpon>DoctorDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmergencyContact.aspx.cs">
+      <DependentUpon>EmergencyContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmergencyContact.aspx.designer.cs">
+      <DependentUpon>EmergencyContact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forgotpassword.aspx.cs">
       <DependentUpon>Forgotpassword.aspx</DependentUpon>

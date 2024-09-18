@@ -13,5 +13,13 @@ namespace Hospital_Management_System
         {
 
         }
+        public void btnSignup_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Patient_signup.aspx");
+        }
+        public void btnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Patient_Login.aspx");
+        }
     }
 }

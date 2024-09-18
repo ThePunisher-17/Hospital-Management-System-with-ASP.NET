@@ -54,35 +54,35 @@
 </head>
 
 <body>
-    <form id="form1" runat="server">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#">Hospital of Ghost</a>
+     <form runat="server" id="form1">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">Hospital of Ghost</a>
 
-            <!-- Left-aligned navigation items -->
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Emergency</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-            </ul>
+        <!-- Left-aligned navigation items -->
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <asp:HyperLink ID="linkHome" runat="server" NavigateUrl="~/Landing_page.aspx" CssClass="nav-link">Home</asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="linkEmergency" runat="server" NavigateUrl="~/EmergencyContact.aspx" CssClass="nav-link">Emergency</asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="linkContactUs" runat="server" NavigateUrl="~/ContactUs.aspx" CssClass="nav-link">Contact Us</asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="linkAboutUs" runat="server" NavigateUrl="~/AbousUs.aspx" CssClass="nav-link">About Us</asp:HyperLink>
+            </li>
+        </ul>
 
-            <!-- Right-aligned login and signup buttons -->
-            <div class="d-flex">
-                <button class="btn btn-outline-primary me-2" type="button">Login</button>
-                <button class="btn btn-primary  " type="button">Signup</button>
-            </div>
+        <!-- Right-aligned login and signup buttons -->
+        <div class="d-flex">
+            <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-outline-primary me-2" Text="Login" OnClick="btnLogin_Click" />
+            <asp:Button ID="btnSignup" runat="server" CssClass="btn btn-primary" Text="Signup" OnClick="btnSignup_Click" />
         </div>
-    </nav>
+    </div>
+</nav>
 
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

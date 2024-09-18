@@ -33,13 +33,13 @@ namespace Hospital_Management_System
         protected global::System.Web.UI.WebControls.TextBox txtHospitalCode;
 
         /// <summary>
-        /// txtPassword control.
+        /// adminPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.TextBox adminPassword;
 
         /// <summary>
         /// btnLogin control.

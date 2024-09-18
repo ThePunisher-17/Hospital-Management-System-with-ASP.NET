@@ -60,7 +60,7 @@
                         <asp:CheckBox ID="chkTerms" runat="server" CssClass="form-check-input" required="required" />
                         <label class="form-check-label" for="chkTerms">I agree to the <a href="#">Terms of Service</a></label>
                     </div>
-                    <asp:Button ID="btnRegister" runat="server" CssClass="btn btn-primary" Text="Register" />  <%--OnClick="btnRegister_Click" />--%>
+                    <asp:Button ID="btnRegister" runat="server" CssClass="btn btn-primary" Text="Register" OnClick="btnRegister_Click" />
                 </div>
             </div>
         </div>
