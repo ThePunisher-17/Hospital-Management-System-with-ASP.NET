@@ -10,22 +10,21 @@
                 <h2 class="card-title text-center">Admin Login</h2>
                 
                     <div class="mb-3">
-                        <label for="adminId" class="form-label">Admin ID</label>
+                        <label  class="form-label">Admin ID</label>
                         <asp:TextBox ID="txtAdminId" runat="server" placeholder="Enter Admin ID" CssClass="form-control" required="required"></asp:TextBox>
 
                     </div>
                     <div class="mb-3">
-                        <label for="hospitalCode" class="form-label">Hospital Code</label>
+                        <label for="txtHospitalCode" class="form-label">Hospital Code</label>
                         <asp:TextBox ID="txtHospitalCode" runat="server" placeholder="Enter Hospital Code" CssClass="form-control" required="required"></asp:TextBox>
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
+                        <label for="adminPassword" class="form-label">Password</label>
                         <asp:TextBox ID="adminPassword" runat="server" placeholder="Enter Password" CssClass="form-control" TextMode="Password" required="required"></asp:TextBox>
                     </div>
                 <%--<asp:Button ID="btnLogin" runat="server" CssClass="btn btn-primary" Text="Login" />--%>
                 <asp:Button  ID="btnLogin" runat="server" CssClass="btn btn-primary" Text="Login" OnClick="btnLogin_clicked" />
 
-                
             </div>
         </div>
     </div>

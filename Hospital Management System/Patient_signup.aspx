@@ -35,8 +35,8 @@
                         <label for="gender" class="form-label">Gender</label>
                         <asp:DropDownList ID="ddlGender" runat="server" CssClass="form-select" required="required">
                             <asp:ListItem Text="Select your gender" Value="" Selected="True" Enabled="False"></asp:ListItem>
-                            <asp:ListItem Text="Male" Value="male"></asp:ListItem>
-                            <asp:ListItem Text="Female" Value="female"></asp:ListItem>
+                            <asp:ListItem Text="Male" Value="Male"></asp:ListItem>
+                            <asp:ListItem Text="Female" Value="Female"></asp:ListItem>
                             <asp:ListItem Text="Other" Value="other"></asp:ListItem>
                         </asp:DropDownList>
                     </div>

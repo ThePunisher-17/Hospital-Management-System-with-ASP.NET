@@ -60,6 +60,15 @@ namespace Hospital_Management_System
         protected global::System.Web.UI.WebControls.GridView gvDoctors;
 
         /// <summary>
+        /// gvPatients control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvPatients;
+
+        /// <summary>
         /// btnAddDoctor control.
         /// </summary>
         /// <remarks>
@@ -76,5 +85,14 @@ namespace Hospital_Management_System
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnViewPatients;
+
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }

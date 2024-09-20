@@ -10,10 +10,11 @@
         <div class="card">
             <div class="card-body">
                 <h2 class="card-title text-center">Patient Login</h2>
+
                 
                     <div class="mb-3">
-                        <label for="username" class="form-label">Username</label>
-                        <asp:TextBox ID="txtUsername" runat="server" placeholder="Enter username" CssClass="form-control" required="required"></asp:TextBox>
+                        <label for="MobileNo" class="form-label">Mobile No</label>
+                        <asp:TextBox ID="MobileNo" runat="server" placeholder="Enter Mobile No" CssClass="form-control" required="required"></asp:TextBox>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
